@@ -1,0 +1,239 @@
+body{
+    font-family: Verdana;
+}
+header{
+	font-weight: bold;
+}
+.displayArea{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+nav ul{
+    display:inline-block;
+    list-style:none; 
+}
+nav ul li{
+    display:inline;
+}
+.headerlogo{
+    float: left;
+    margin-right: 10px;
+}
+.headerlogo > img{
+	height: 60px;
+    width: 60px;
+}
+#headername{
+	font-size: 40px;
+    font-family: headerfont;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+.searchbox{
+	float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+.backgroundgradient {
+    background: linear-gradient(to right, #603813, #341c05);
+    background: -webkit-linear-gradient(left, #603813, #341c05); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #603813, #341c05); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #603813, #341c05); /* For Firefox 3.6 to 15 */
+}
+.navlink{
+
+    float:left;
+    text-decoration:none; 
+    color: white;
+    padding:0 30px; /* variable width */
+}
+.navlink:hover{
+	color:red;
+}
+.navlink:active{
+	color:green;
+}
+#welcomeimage{
+	float: left;
+	width: 700px;
+}
+#coffeeofthemonth{
+	float: right;
+    width: 290px;
+}
+#welcometext {
+    float: left;
+    /*width: 70%;*/
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+/*    -webkit-column-count: 2;*/
+    column-count: 3;
+}
+#welcometext > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+#events{
+	float: right;
+	width: 30%;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    /*margin-left: 10px;*/
+}
+#events > header{
+	margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+#events > ul{
+	list-style: none;
+}
+#events > ul > li{
+margin-bottom: 3px;
+}
+#events > ul > li > a:hover{
+	font-weight: bold;
+    color: #BE8262;
+}
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+#bestsellers > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.coffeebestsellers {
+
+    /*float: left;*/
+}
+.coffeebestsellers > header, .accessoriesbestsellers > header{
+	height: 30px;
+    line-height: 30px;
+    background-color: #603813;
+    color: white;
+    padding-left: 10px;
+}
+.accessoriesbestsellers {
+    clear: both;
+}
+.productarticle{
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;	
+}
+.productarticlethumbnail {
+    width: 100px;
+    height: 150px;
+}
+.productarticle a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #603813;
+    font-weight: bold;
+}
+.productarticle a:hover{
+	color: red;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    /*padding-top: 5px;*/
+}
+
+
+.blockheader{
+    line-height: 30px;
+    width:300px;
+    padding-left: 10px;
+    color: white;
+}
+
+#mainForm{
+    margin-top: 20px;
+}
+.submitbutton{
+    margin-top: 20px;
+}
+.box{
+
+}
+.textlabel{
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    display: block;
+    width: 250px;
+    padding: 2px 5px;
+    float: left;
+}
+.textinput{
+    width: 300px;
+    height: 22px;
+    border: 1px solid #888888;
+}
+
+#map{
+    margin-top: 50px;
+    width:480px;
+    height:350px;
+    border:1;
+}
+.addtocartbutton {
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #603813;
+    border: 1px solid #381f09;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+.addtocartbutton:hover, .addtocartbutton:focus {
+    background-color: #512c0a;
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+
+/*footer section*/
+footer {
+    clear: both;
+    background-color: #5c5045;
+    margin: 20px 0px 20px;
+    padding: 5px;
+    color: white;
+}
+.smalltext{
+	    font-size: 0.65rem;
+        text-align: center;
+}
+.mainlink{
+	text-decoration: none;
+	color:grey;
+}
+.mainlink:hover{
+    color:red;
+}
+/*-------------------------Home Page Completed------------------------*/
+
